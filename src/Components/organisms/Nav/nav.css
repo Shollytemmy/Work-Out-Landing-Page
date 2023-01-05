@@ -1,11 +1,16 @@
 .navbar{
-    @apply flex border justify-around items-center h-[75px]
+    @apply flex justify-around items-center h-[75px]
 }
 
 .nav_links{
-    @apply flex justify-end border w-[65%]
+    @apply flex justify-end w-[65%] items-center
 
 }
+
+.nav_links{
+    @apply md:none
+}
+
 .nav_links > a{
     @apply my-0 mx-2.5 p-5 uppercase
 }

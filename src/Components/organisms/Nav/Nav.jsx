@@ -9,7 +9,7 @@ export const Nav = () => {
     const [mobileView, setMobileView] = useState(false)
   return (
     <nav className='navbar'>
-        <h3 className='text-base font-bold uppercase'>WorkOuts</h3>
+        <h3 className='text-base font-bold uppercase md:flex md:text-[30px] top:md-[15px]md:absolute md:left-[-25px]'>WorkOuts</h3>
 
         <ul className='nav_links'>
             <AnchorLink className="workouts" href="worksout">
