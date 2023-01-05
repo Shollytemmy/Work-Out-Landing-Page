@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Button } from '../../atoms'
+import BarIcon from '../../atoms/Bars'
+import TimesIcon from '../../atoms/Times'
 import './nav.css'
 
 export const Nav = () => {
+    const [mobileView, setMobileView] = useState(false)
   return (
     <nav className='navbar'>
         <h3 className='text-base font-bold uppercase'>WorkOuts</h3>
@@ -25,6 +29,11 @@ export const Nav = () => {
             </AnchorLink>
 
         </ul>
+
+        <Button>
+            {mobileView ? <TimesIcon /> : <BarIcon />}
+
+        </Button> 
     </nav>
     
   )

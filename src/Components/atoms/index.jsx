@@ -1,7 +1,7 @@
 import React from 'react'
 import './Button.css'
-export const Button = () => {
+export const Button = ({children}) => {
   return (
-    <div>Button</div>
+    <div>{children}</div>
   )
 }
