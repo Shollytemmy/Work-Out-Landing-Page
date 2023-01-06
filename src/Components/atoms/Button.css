@@ -1,3 +1,16 @@
 .mobile_btn{
-    @apply hidden
+    @apply hidden text-[30px]
+}
+
+@media screen and (max-width: 780px) {
+    .mobile_btn{
+        display: block;
+        position: absolute;
+        right: 25px;
+        font-size: 35px;
+        cursor: pointer;
+        transition: all 0.5 ease;
+        
+    }
+    
 }

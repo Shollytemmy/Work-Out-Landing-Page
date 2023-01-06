@@ -2,15 +2,51 @@
     @apply flex justify-around items-center h-[75px]
 }
 
-.nav_links{
-    @apply flex justify-end w-[65%] items-center
-
+.logo{
+    @apply text-lg font-bold
 }
 
 .nav_links{
-    @apply md:none
+    @apply flex justify-end w-[65%] items-center border
+
 }
+
+
 
 .nav_links > a{
-    @apply my-0 mx-2.5 p-5 uppercase
+    @apply my-0 mx-2.5 p-[10px] uppercase
 }
+
+@media screen and (max-width:780px) {
+    .logo{
+        font-size: 30px;
+      
+        display: flex;
+        position: absolute;
+        left: 35px;
+    }
+    
+    .nav_links{
+        display: none;
+    }
+
+    .mobileView_links{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        background-color: black;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .mobileView_links > a{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding: 25px;
+        width: 100px;
+        transition: all 0.5s ease;
+    }
+}
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Button.css'
-export const Button = ({children}) => {
+export const Button = ({children, handleClick}) => {
   return (
-    <div className='mobile_btn'>{children}</div>
+    <div className='mobile_btn' onClick={handleClick}>{children}</div>
   )
 }

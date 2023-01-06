@@ -9,4 +9,15 @@ body{
 .app{
   @apply text-3xl font-bold underline 
 }
+
+
+
+/* @media screen and (max-width: 780px) {
+  body{
+    background-color: red;
+
+  }  
+
+    
+} */
 @tailwind utilities;
