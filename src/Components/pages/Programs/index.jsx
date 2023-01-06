@@ -27,7 +27,7 @@ export const Programs = () => {
     },
   ]
   return (
-    <section className='border'>
+    <section className='programs mb-[180px]' id='programs'>
       <div className="programs w-[75%] mx-auto">
         <h4 className='text-[40px] leading-[50px] font-[600] tracking-[0.3px]'>Not sure where to start?</h4>
         <p className='font-normal text-[16px] leading-6 tracking-[0.5px] text-[gray]'>Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
