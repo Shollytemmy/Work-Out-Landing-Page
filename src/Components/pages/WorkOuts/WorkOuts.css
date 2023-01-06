@@ -7,5 +7,16 @@
 .toptag{
     position: absolute;
     top: 35px;
+    right: 20px;
+}
+
+.right-tag{
+    position: absolute;
     right: 35px;
+}
+
+.buttomtag{
+    position: absolute;
+    top: 450px;
+    left: 650px;
 }
