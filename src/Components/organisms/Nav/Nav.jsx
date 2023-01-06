@@ -13,19 +13,19 @@ export const Nav = () => {
 
         <ul className={mobileView ? "mobileView_links": 'nav_links'}
         onClick={() => setMobileView(false)} >
-            <AnchorLink className="workouts" href="worksout">
+            <AnchorLink className="workouts" href="#workouts">
                 <li>WorkOuts</li>
             </AnchorLink>
-            <AnchorLink className="workouts" href="programs">
+            <AnchorLink className="workouts" href="#programs">
                 <li>Programs</li>
             </AnchorLink>
-            <AnchorLink className="workouts" href="health">
+            <AnchorLink className="workouts" href="#healths">
                 <li>Health Livings</li>
             </AnchorLink>
-            <AnchorLink className="workouts" href="community">
+            <AnchorLink className="workouts" href="#community">
                 <li>Community</li>
             </AnchorLink>
-            <AnchorLink className="workouts" href="stores">
+            <AnchorLink className="workouts" href="#stores">
                 <li>Stores</li>
             </AnchorLink>
 
