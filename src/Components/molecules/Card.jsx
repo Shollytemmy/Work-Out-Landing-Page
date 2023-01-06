@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Card = ({children}) => {
   return (
-    <article className='w-[304px] h-[190px] border '>
+    <article className='w-[304px] h-[190px] border p-5 bg-[#333]'>
         {children}
     </article>
   )
