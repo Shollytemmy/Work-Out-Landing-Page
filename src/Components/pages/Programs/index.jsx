@@ -34,7 +34,7 @@ export const Programs = () => {
         <div  className='flex gap-5 mt-[50px]'>
           {programs.map((program) => {
             return(
-              <Card>
+              <Card key={program.id}>
                 <h2 className='font-semibold text-[16px] leading-6 tracking-[0.5px]'>{program.title}</h2>
                 <div className='content flex mt-[20px] justify-center items-center'>
                   <p className='text-[gray] font-normal text-[14px] leading-6 tracking-[0.3px]'>{program.content}</p> 

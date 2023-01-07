@@ -25,6 +25,9 @@ export const Nav = () => {
             <AnchorLink className="workouts" href="#community">
                 <li>Community</li>
             </AnchorLink>
+            <AnchorLink className="workouts" href="#about">
+                <li>About</li>
+            </AnchorLink>
             <AnchorLink className="workouts" href="#stores">
                 <li>Stores</li>
             </AnchorLink>
