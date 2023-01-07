@@ -20,3 +20,32 @@
     top: 450px;
     left: 650px;
 }
+
+/*Work out*/
+
+.workouts{
+    @apply w-[75%] mx-auto
+}
+
+.work_title{
+   @apply w-[883px] h-[340px] font-extrabold text-[172px] leading-[170px] uppercase
+}
+
+.main_img{
+   @apply img w-[409px] h-[684px]
+}
+.main_text{
+    @apply w-[560px] h-[48px] font-normal text-base tracking-[0.5px] text-[gray]
+}
+
+
+/** Media Query **/
+@media screen and (max-width: 1024px){
+    section{
+        width: 80%;
+        background-color: red;
+    }
+  
+    
+    
+}

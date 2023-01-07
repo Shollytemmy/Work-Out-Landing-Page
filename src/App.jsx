@@ -6,6 +6,7 @@ import { WorkOuts } from './Components/pages/WorkOuts'
 import { Programs } from './Components/pages/Programs'
 import { About } from './Components/pages/About'
 import { Community } from './Components/pages/Community'
+import { ScrollUp } from './Components/ScrollUp/ScrollUp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Programs />
       <About />
       <Community />
+      <ScrollUp />
       
     </div>
   )

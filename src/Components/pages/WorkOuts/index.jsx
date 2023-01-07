@@ -4,15 +4,15 @@ import './WorkOuts.css'
 export const WorkOuts = () => {
   return (
     <section id='workouts' className='mb-[200px]'>
-      <div className="workouts w-[75%] mx-auto">
-        <h1 className='w-[883px] h-[340px] font-extrabold text-[172px] leading-[170px] uppercase'>workout with me</h1>
-        <div className="img w-[409px] h-[684px]">
+      <div className="workouts">
+        <h1 className='work_title'>workout with me</h1>
+        <div className="main_img">
           <img src="/images/toptag.png" alt="" className='toptag' />
           
-          <img src="/images/man.png" alt="" />
+          <img src="/images/man.png" alt="" className='man' />
           
         </div>
-        <p className='w-[560px] h-[48px] font-normal text-base tracking-[0.5px] text-[gray]'>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+        <p className='main_text'>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
         <button className='mt-5'>
           <img src="/images/Button.png" alt="" />
         </button>
