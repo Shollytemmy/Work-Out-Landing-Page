@@ -2,7 +2,22 @@
     @apply hidden text-[30px]
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
+    .mobile_btn{
+        display: block;
+        position: absolute;
+        right: 50px;
+        font-size: 35px;
+        cursor: pointer;
+        transition: all 0.5 ease;
+        
+    }
+   
+
+    
+}
+
+/* @media screen and (max-width: 780px) {
     .mobile_btn{
         display: block;
         position: absolute;
@@ -13,4 +28,4 @@
         
     }
     
-}
+} */

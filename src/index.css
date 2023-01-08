@@ -3,21 +3,21 @@
 @tailwind components;
 
 
+
+
+
 body{
-  @apply bg-main text-primary
-}
-.app{
-  @apply text-3xl font-bold underline 
+  @apply bg-main text-primary overflow-x-hidden
 }
 
 
 
-/* @media screen and (max-width: 780px) {
-  body{
-    background-color: red;
 
-  }  
+
+
+@media screen and (max-width: 1024px) {
+ 
 
     
-} */
+}
 @tailwind utilities;

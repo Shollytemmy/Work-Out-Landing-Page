@@ -1,7 +1,7 @@
 .scrollUp{
     position: fixed;
     bottom: 0;
-    background-color: rgb(110, 136, 161);
+    background-color: #333;
     color: rgb(255, 255, 255);
     border-radius: 50%;
     width: 5rem;
@@ -18,4 +18,5 @@
     background-color: rgb(255, 255, 255);
     color: #1F2937;
     transition: 2s;
+    text-align: center;
 }

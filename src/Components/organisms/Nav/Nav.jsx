@@ -43,4 +43,3 @@ export const Nav = () => {
   )
 }
 
-//text-base font-bold uppercase md:flex md:text-[30px] top:md-[15px]md:absolute

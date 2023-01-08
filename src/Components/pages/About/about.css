@@ -1,0 +1,29 @@
+.about_grid{
+    @apply grid grid-cols-2 gap-x-8 gap-y-20 w-[75%] mx-auto
+}
+
+.left_about{
+    @apply justify-self-center self-center
+}
+
+.about_text{
+    @apply text-[50px] font-semibold leading-[70px] tracking-[0.83px] mb-3 
+    
+}
+
+.about_para{
+    @apply text-[14px] font-normal leading-6 tracking-[0.3px] text-[gray] mb-3
+}
+.right_about {
+  @apply justify-self-center self-center
+}
+
+
+@media screen and (max-width: 1024px) {
+    .about_grid{
+        grid-template-columns: 1fr;
+    }
+
+    
+    
+}

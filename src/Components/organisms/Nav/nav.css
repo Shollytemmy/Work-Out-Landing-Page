@@ -1,5 +1,5 @@
 .navbar{
-    @apply flex justify-around items-center h-[75px]
+    @apply flex justify-around items-center h-[75px] w-[100vw]
 }
 
 .logo{
@@ -17,14 +17,21 @@
     @apply my-0 mx-2.5 p-[10px] uppercase
 }
 
-@media screen and (max-width:780px) {
+
+
+@media screen and (max-width: 1024px) {
     .logo{
         font-size: 30px;
       
         display: flex;
         position: absolute;
-        left: 35px;
+        left: 15px;
     }
+    .navbar{
+        background-color: teal;
+    }
+
+    
     
     .nav_links{
         display: none;
@@ -48,5 +55,11 @@
         width: 100px;
         transition: all 0.5s ease;
     }
+
+    
 }
+
+
+/**/
+
 

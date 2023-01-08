@@ -1,0 +1,36 @@
+.program_content{
+    @apply w-[75%] mx-auto
+}
+
+.program_map{
+    @apply flex gap-5 mt-[50px]
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 1024px) {
+    .program_content{
+        @apply w-[100%]
+    }
+
+    .programs{
+        margin: 0px auto;
+    }
+
+    .program_map{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about{
+
+    }
+}

@@ -8,4 +8,4 @@ export const Card = ({children, styles}) => {
   )
 }
 
-//'w-[304px] h-[190px] border p-5 bg-[#333] rounded-md'
+

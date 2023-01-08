@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from '../../molecules/Card'
 import ArrowIcon from '../../atoms/Arrow'
+import './Community.css'
 
 export const Community = () => {
 
@@ -30,11 +31,11 @@ export const Community = () => {
     },
   ]
   return (
-    <section className='community mb-[200px]' id='community'>
-      <div className='programs w-[75%] mx-auto'>
-        <h1 className='font-medium text-[50px] leading-[70px] tracking-[0.83px]'>Membership</h1>
-        <div className="bor-light border-b-[gray] h-[5px]"></div>
-        <div className="membership grid grid-cols-2 gap-5 mt-8">
+    <section className=' mb-[200px]' id='community'>
+      <div className='community-div'>
+        <h1 className='membership'>Membership</h1>
+        <div className="bor-light h-[5px]"></div>
+        <div className="membership_grid grid">
          {
           communities.map((community) => {
             return(
