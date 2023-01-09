@@ -6,6 +6,13 @@
     @apply flex gap-5 mt-[50px]
 }
 
+.program_text{
+    @apply font-normal text-[16px] leading-6 tracking-[0.5px] text-[gray]
+}
+
+.program_title{
+    @apply text-[40px] leading-[50px] font-[600] tracking-[0.3px]
+}
 
 
 
@@ -21,9 +28,9 @@
         @apply w-[100%]
     }
 
-    .programs{
+    /* .programs{
         margin: 0px auto;
-    }
+    } */
 
     .program_map{
         flex-wrap: wrap;
@@ -33,4 +40,16 @@
     .about{
 
     }
+}
+
+@media screen and (max-width: 780px) {
+
+    .program_text, .program_title{
+        margin: 10px auto;
+        outline: 0px solid red;
+        /* text-align: center; */
+        width: 50%;
+
+    }
+    
 }
