@@ -10,7 +10,7 @@
 .toptag{
     position: absolute;
     top: 35px;
-    right: 5px;
+    right: 10px;
 }
 
 .right-tag{
@@ -20,9 +20,9 @@
 
 .buttomtag{
     position: absolute;
-    top: 490px;
+    top: 530px;
     left: 650px;
-    /* outline: 1px solid green; */
+   
 }
 
 /*Work out*/
