@@ -4,7 +4,7 @@ import './WorkOuts.css'
 
 export const WorkOuts = () => {
   return (
-    <section id='workouts' className='mb-[200px] section'>
+    <section id='workouts' className='mb-[200px] mt-10 section'>
       <div className="workouts">
         <h1 className='work_title'>workout with me</h1>
         <div className="main_img">

@@ -27,7 +27,7 @@
 /*Work out*/
 
 .workouts{
-    @apply w-[75%] mx-auto
+    @apply w-[75%] mx-auto 
 }
 
 .work_title{
