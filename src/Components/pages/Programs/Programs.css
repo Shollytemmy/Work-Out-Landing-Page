@@ -7,13 +7,16 @@
 }
 
 .program_text{
-    @apply font-normal text-[16px] leading-6 tracking-[0.5px] text-[gray]
+    @apply font-normal text-[16px] leading-6 tracking-[0.5px] text-subPrimary
 }
 
 .program_title{
-    @apply text-[40px] leading-[50px] font-[600] tracking-[0.3px]
+    @apply text-[40px] leading-[50px] font-[600] tracking-[0.3px] text-primary
 }
 
+.program_data{
+    @apply text-subPrimary font-normal text-[14px] leading-6 tracking-[0.3px]
+}
 
 
 

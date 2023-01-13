@@ -39,7 +39,7 @@
    @apply img w-[409px] h-[684px]
 }
 .main_text{
-    @apply w-[560px] h-[48px] font-normal text-base tracking-[0.5px] text-[gray]
+    @apply w-[560px] h-[48px] font-normal text-base tracking-[0.5px] text-subPrimary mt-3 mb-5
 }
 
 

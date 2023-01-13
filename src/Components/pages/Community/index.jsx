@@ -34,18 +34,18 @@ export const Community = () => {
     <section className=' mb-[200px]' id='community'>
       <div className='community-div'>
         <h1 className='membership'>Membership</h1>
-        <div className="bor-light h-[5px]"></div>
-        <div className="membership_grid grid">
+        <div className="b-bottom"></div>
+        <div className="membership_grid">
          {
           communities.map((community) => {
             return(
               <Card key={community.id} styles="p-10" >
-                <h2 className='font-semibold text-[24px] leading-[50px] tracking-[0.3px] text-center'>{community.tittle}</h2>
+                <h2 className='community_title'>{community.tittle}</h2>
                 <div className="list">
-                  <p className='text-[18px] font-normal leading-6 tracking-[0.5px] text-[gray]'>{community.content}</p>
+                  <p className='community_content'>{community.content}</p>
                   
                     <div>
-                      {community.lists.map((list, idx) => <li key={idx} className="font-normal text-[18px] leading-6 tracking-[0.5px]">{list}</li>)}
+                      {community.lists.map((list, idx) => <li key={idx} className="community_list">{list}</li>)}
                       <button className='mt-5 ml-5'>
                         
                       </button>
