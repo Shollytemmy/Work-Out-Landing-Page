@@ -44,14 +44,12 @@ export const Community = () => {
                 <div className="list">
                   <p className='community_content'>{community.content}</p>
                   
-                    <div>
+                    <div className='mb-8'>
                       {community.lists.map((list, idx) => <li key={idx} className="community_list">{list}</li>)}
-                      <button className='mt-5 ml-5'>
-                        
-                      </button>
+                      
                     </div>
-                 <button className='flex mb-5 ml-8'>
-            <span className='mr-3 text-[blue]'>See More</span><ArrowIcon />
+                 <button className='flex mb-5 ml-8 items-center'>
+            <span className='mr-3 text-[blue]'>See More</span><ArrowIcon style={{verticalAlign: "middle"}} />
             </button>
                 </div>
               </Card>
