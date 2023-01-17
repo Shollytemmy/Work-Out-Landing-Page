@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import ArrowUp from '../atoms/ArrowUp';
+import BackToUp from '../atoms/ScrollUp'
 import './scroll.css'
 
 export const ScrollUp = () => {
@@ -27,8 +27,8 @@ export const ScrollUp = () => {
   
   window.addEventListener('scroll', toggleVisible);
   return (
-    <button className={`scrollUp ${visible ? "inline" : "none"}` } onClick={scrollToTop} >
-        <ArrowUp/>
+    <button className="scrollUp " onClick={scrollToTop} >
+       Back to Top<BackToUp />
         
     </button>
   )

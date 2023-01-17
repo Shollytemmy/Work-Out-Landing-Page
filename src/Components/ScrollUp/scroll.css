@@ -1,22 +1,28 @@
 .scrollUp{
     position: fixed;
-    bottom: 0;
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    bottom: 20px;
+    right: 20px;
+    color: #323443;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
     cursor: pointer;
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .scrollUp:hover{
-    background-color: rgb(255, 255, 255);
-    color: #1F2937;
+    color: rgb(255, 255, 255);
+    background-color: #323443;
     transition: 2s;
-    text-align: center;
+    
+}
+
+svg{
+    margin-top: 5px;
 }

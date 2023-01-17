@@ -11,7 +11,7 @@
 }
 
 .program_title{
-    @apply text-[40px] leading-[50px] font-[600] tracking-[0.3px] text-primary 
+    @apply text-[40px] leading-[50px] font-[600] tracking-[0.3px] text-primary mb-4
 }
 
 .program_data{
