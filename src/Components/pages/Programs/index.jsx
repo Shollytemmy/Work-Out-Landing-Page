@@ -35,7 +35,7 @@ export const Programs = () => {
         <div  className='program_map'>
           {programs.map((program) => {
             return(
-              <Card key={program.id} styles={"w-[304px] h-[190px] p-5"}>
+              <Card key={program.id} styles={"w-[304px] h-[190px] p-5 bg-[#323443]" }>
                 <h2 className='font-semibold text-[16px] leading-6 tracking-[0.5px]'>{program.title}</h2>
                 <div className='content flex mt-[20px] justify-center items-center'>
                   <p className='program_data'>{program.content}</p> 

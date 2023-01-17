@@ -39,7 +39,7 @@ export const Community = () => {
          {
           communities.map((community) => {
             return(
-              <Card key={community.id} styles="p-10" >
+              <Card key={community.id} styles="p-10 bg-[#232532]" >
                 <h2 className='community_title'>{community.tittle}</h2>
                 <div className="list">
                   <p className='community_content'>{community.content}</p>
