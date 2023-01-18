@@ -1,13 +1,14 @@
 
 @tailwind base;
 @tailwind components;
+@import "../public/inter.css";
 
 
 
 
 
 body{
-  @apply bg-main text-primary overflow-x-hidden
+  @apply bg-main text-primary overflow-x-hidden font-[inter]
 }
 
 
