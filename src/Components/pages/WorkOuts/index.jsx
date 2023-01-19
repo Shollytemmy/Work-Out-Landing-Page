@@ -11,6 +11,7 @@ export const WorkOuts = () => {
           <img src="/images/toptag.png" alt="" className='toptag' />
           
           <img src="/images/man.png" alt="" className='man' />
+          <img src="/images/buttomtag.png" alt=""  className='buttomtag'/>
           
         </div>
         <p className='main_text'>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
@@ -19,9 +20,11 @@ export const WorkOuts = () => {
           <img src="/images/Button.png" alt="" />
         </button>
 
+
+
         </div>
         
-        <img src="/images/buttomtag.png" alt=""  className='buttomtag'/>
+        
         <img src="/images/right-tag.png" alt="" className='right-tag'/>
         <img src="/images/Section.png" alt="" className='nike_img mt-10'/>
 

@@ -15,7 +15,7 @@ body{
 }
 
 .join_club{
-  @apply bg-[blue] font-[600] text-[16px] text-primary leading-[22px] py-[3px] px-[10px] rounded-lg w-[150px] h-[30px] font-heading
+  @apply bg-[#0070C9] font-[600] text-[16px] text-primary leading-[22px] py-[3px] px-[10px] rounded-lg w-[150px] h-[30px] font-heading
 }
 
 .seemore{
