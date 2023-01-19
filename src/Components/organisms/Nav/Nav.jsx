@@ -20,7 +20,7 @@ export const Nav = () => {
                 <li>Programs</li>
             </AnchorLink>
             <AnchorLink className="workouts" href="#healths">
-                <li>Health Livings</li>
+                <li>Health Living</li>
             </AnchorLink>
             <AnchorLink className="workouts" href="#community">
                 <li>Community</li>

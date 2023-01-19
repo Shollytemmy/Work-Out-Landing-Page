@@ -7,7 +7,7 @@
 }
 
 .nav_links{
-    @apply flex justify-end w-[65%] items-center
+    @apply flex justify-end w-[70%] items-center border
 
 }
 
