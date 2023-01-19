@@ -11,8 +11,14 @@ module.exports = {
       subPrimary: "rgba(239, 237, 232, 0.65)"
     }, 
     
+    
 
-    extend: {},
+    extend: {
+      fontFamily:{
+      'heading': ['Poppins','Montserrat'],
+      tableH: 'Inter'
+    }
+    },
   },
   plugins: [],
 }
